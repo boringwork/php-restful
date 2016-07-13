@@ -1,0 +1,6 @@
+curl -X GET \
+  -H "X-Parse-Application-Id: pZhX1rfHlVWtC3SGxnBmZqeBcdOIv7kd31YU3IXz" \
+  -H "X-Parse-REST-API-Key: hNJTELZPPWAeCD6kwRQZ8swoeyrClFmhXxQXyjx1" \
+  -G \
+  --data-urlencode 'where={"playerName":"Sean Plott","cheatMode":false}' \
+  http://localhost/imp/4/objects/todo
